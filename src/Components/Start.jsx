@@ -1,7 +1,7 @@
 import { useStore } from "../Store/Index";
 import {Link} from "react-router-dom";
 import "../Css/Start.css";
-import Data from "../db/Data.json"
+import Data from "../DB/Data.json"
 
 const Start = () => {
   const {selectedTema}=useStore();
