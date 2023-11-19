@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es la capital de Japón?",
+      "options": ["A. Seúl", "B. Pekín", "C. Tokio"],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "question": "¿En qué continente se encuentra la Gran Barrera de Coral?",
+      "options": ["A. América del Norte", "B. Europa", "C. Australia"],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es el río más largo del mundo?",
+      "options": ["A. Nilo", "B. Amazonas", "C. Yangtsé"],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "question": "¿Qué país es conocido como 'La Tierra del Sol Naciente'?",
+      "options": ["A. China", "B. Japón", "C. India"],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál es la montaña más alta del mundo?",
+      "options": ["A. Monte Everest", "B. K2", "C. Mont Blanc"],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 6,
+      "question": "¿En qué océano se encuentra la isla de Madagascar?",
+      "options": ["A. Océano Atlántico", "B. Océano Pacífico", "C. Océano Índico"],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es el país más grande del mundo en términos de superficie?",
+      "options": ["A. China", "B. Rusia", "C. Estados Unidos"],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 8,
+      "question": "¿En qué continente se encuentra el desierto del Sahara?",
+      "options": ["A. África", "B. Asia", "C. América del Norte"],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es la capital de Canadá?",
+      "options": ["A. Toronto", "B. Ottawa", "C. Vancouver"],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es el punto más bajo de la Tierra?",
+      "options": ["A. Valle de la Muerte", "B. Mariana Trench", "C. Lago Baikal"],
+      "correctAnswer": "B"
+    }
+  ]
+  

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "image": "image/capitales_america.png",
+    "name": "Capitales De America"
+  },
+  {
+    "id": 2,
+    "image": "/image/logo_ciencia.png",
+    "name": "Ciencia"
+  },{
+    "id":3,
+    "image": "/image/tecnologia.png",
+    "name":"tecnologia"
+  },{
+    "id":4,
+    "image": "/image/astronomia.png",
+    "name":"Astronomia"
+  },{
+    "id":5,
+    "image": "/image/historia.png",
+    "name":"Historia"
+  },{
+    "id":6,
+    "image": "/image/geografia.png",
+    "name":"Historia"
+  }
+]

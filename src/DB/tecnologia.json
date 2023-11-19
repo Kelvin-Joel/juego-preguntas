@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué significa la sigla 'HTTP' en internet?",
+      "options": ["Hypertext Transfer Protocol", "High Tech Programming", "Hyperlink and Text Transfer Protocol", "Home Tool Programming"],
+      "correct_answer": "Hypertext Transfer Protocol"
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el primer lenguaje de programación creado?",
+      "options": ["Java", "C", "Fortran", "Python"],
+      "correct_answer": "Fortran"
+    },
+    {
+      "id": 3,
+      "question": "¿Qué es un SSD en términos de almacenamiento de datos?",
+      "options": ["Super Storage Drive", "Solid State Drive", "Software Storage Disk", "System Security Database"],
+      "correct_answer": "Solid State Drive"
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es el propósito principal de un servidor web?",
+      "options": ["Almacenar archivos de usuario", "Proveer acceso a internet", "Gestionar sitios web y distribuir contenido", "Mantener la seguridad de la red"],
+      "correct_answer": "Gestionar sitios web y distribuir contenido"
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál de los siguientes no es un lenguaje de programación?",
+      "options": ["Java", "HTML", "CSS", "PDF"],
+      "correct_answer": "PDF"
+    },
+    {
+      "id": 6,
+      "question": "¿Qué es el 'phishing'?",
+      "options": ["Un método para pescar en línea", "Un tipo de malware", "Una técnica de hacking", "Una táctica de engaño para obtener información personal"],
+      "correct_answer": "Una táctica de engaño para obtener información personal"
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál de los siguientes no es un sistema operativo?",
+      "options": ["Windows", "Android", "Linux", "Microsoft Office"],
+      "correct_answer": "Microsoft Office"
+    },
+    {
+      "id": 8,
+      "question": "¿Qué es un 'router' en redes de computadoras?",
+      "options": ["Un dispositivo para conectar cables", "Un dispositivo de entrada", "Un dispositivo de red que redirige el tráfico", "Un programa de seguridad"],
+      "correct_answer": "Un dispositivo de red que redirige el tráfico"
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es el propósito de un lenguaje de marcado como XML o HTML?",
+      "options": ["Controlar el hardware de la computadora", "Diseñar interfaces de usuario", "Estructurar y organizar datos", "Crear redes de computadoras"],
+      "correct_answer": "Estructurar y organizar datos"
+    },
+    {
+      "id": 10,
+      "question": "¿Qué es la inteligencia artificial?",
+      "options": ["Un robot inteligente", "La capacidad de una máquina para imitar la inteligencia humana", "Una forma de energía avanzada", "Un tipo de software antivirus"],
+      "correct_answer": "La capacidad de una máquina para imitar la inteligencia humana"
+    }
+]

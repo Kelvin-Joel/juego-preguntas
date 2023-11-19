@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es el símbolo químico del oro?",
+      "options": ["Au", "Ag", "Fe", "Cu"],
+      "correct_answer": "Au"
+    },
+    {
+      "id": 2,
+      "question": "¿Qué gas es esencial para la fotosíntesis de las plantas?",
+      "options": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Hidrógeno"],
+      "correct_answer": "Dióxido de carbono"
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es el planeta más grande del sistema solar?",
+      "options": ["Tierra", "Júpiter", "Marte", "Saturno"],
+      "correct_answer": "Júpiter"
+    }
+  ]
+  
