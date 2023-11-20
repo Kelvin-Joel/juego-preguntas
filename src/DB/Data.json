@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "image/capitales_america.png",
-    "name": "Capitales De America"
+    "name": "Capitales"
   },
   {
     "id": 2,
@@ -23,6 +23,6 @@
   },{
     "id":6,
     "image": "/image/geografia.png",
-    "name":"Historia"
+    "name":"Geografia"
   }
 ]

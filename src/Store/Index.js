@@ -1,9 +1,10 @@
 import { create } from "zustand";
-import capitales from "../DB/capitales.json";
-import ciencia from "../DB/Ciencia.json";
-import tecnologia from "../DB/tecnologia.json";
+import Capitales from "../DB/capitales.json";
+import Ciencia from "../DB/Ciencia.json";
+import Tecnologia from "../DB/tecnologia.json";
 import Astronomia from "../DB/Astronomia.json";
 import Historia from "../DB/Historia.json";
+import Geografia from "../DB/Geografia.json";
 
 export const useStore = create((set, get) => ({
   list_questions: [],
@@ -12,9 +13,24 @@ export const useStore = create((set, get) => ({
   correct_questions: 0,
   select_button: null,
   ShowResults: 0,
+  temas :{
+    Capitales:Capitales,
+    Ciencia:Ciencia,
+    Tecnologia:Tecnologia,
+    Astronomia:Astronomia,
+    Historia:Historia,
+    Geografia:Geografia,
+  },
   /*********************************************************************** */
   selectedTema(tema) {
-    switch (tema) {
+    console.log(tema)
+    console.log(get().temas.hasOwnProperty(tema))
+    if(get().temas.hasOwnProperty(tema)){
+      set({ list_questions: get().temas[tema] });
+      set({ questions: get().list_questions[get().pagination] });
+      return
+    }
+    /* switch (tema) {
       case "Capitales De America":
         set({ list_questions: capitales });
         set({ questions: get().list_questions[get().pagination] });
@@ -41,7 +57,7 @@ export const useStore = create((set, get) => ({
         break;
       default:
         break;
-    }
+    } */
   },
   /*********************************************************************** */
   handleButtonClick(button) {
@@ -59,7 +75,6 @@ export const useStore = create((set, get) => ({
       
       set({ questions: get().list_questions[get().pagination] });
     }
-
     if (get().ShowResults > get().list_questions.length) {
       set({ ShowResults: 0 });
       return;
