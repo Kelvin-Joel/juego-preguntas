@@ -23,41 +23,11 @@ export const useStore = create((set, get) => ({
   },
   /*********************************************************************** */
   selectedTema(tema) {
-    console.log(tema)
-    console.log(get().temas.hasOwnProperty(tema))
     if(get().temas.hasOwnProperty(tema)){
       set({ list_questions: get().temas[tema] });
       set({ questions: get().list_questions[get().pagination] });
       return
     }
-    /* switch (tema) {
-      case "Capitales De America":
-        set({ list_questions: capitales });
-        set({ questions: get().list_questions[get().pagination] });
-        break;
-      case "Ciencia":
-        set({ list_questions: ciencia });
-        set({ questions: get().list_questions[get().pagination] });
-        break;
-      case "tecnologia":
-        set({ list_questions: tecnologia });
-        set({ questions: get().list_questions[get().pagination] });
-        break;
-      case "Astronomia":
-        set({ list_questions: Astronomia });
-        set({ questions: get().list_questions[get().pagination] });
-        break;
-      case "Historia":
-        set({ list_questions: Historia });
-        set({ questions: get().list_questions[get().pagination] });
-        break;
-      case "Geografia":
-        set({ list_questions: Geografia });
-        set({ questions: get().list_questions[get().pagination] });
-        break;
-      default:
-        break;
-    } */
   },
   /*********************************************************************** */
   handleButtonClick(button) {

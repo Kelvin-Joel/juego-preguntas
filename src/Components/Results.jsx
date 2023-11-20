@@ -9,6 +9,7 @@ const Results = () => {
     hiddenResults();
     navigate("/");
   };
+  console.log("")
 
   return (
     <div className="box__results">
