@@ -1,13 +1,14 @@
 .content__start{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
-    gap: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
     width: 100%;
-    height: 100%;
+    padding-top: 2em;
 }
 .content__card{
     text-align: center;
-    width:100%;
+    width:20em;
     border-radius: 5px;
     transition: .5s;
 }

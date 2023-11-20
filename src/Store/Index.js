@@ -56,6 +56,7 @@ export const useStore = create((set, get) => ({
       get().getAnswer();
     } else {
       set({ pagination: 0 });
+      
       set({ questions: get().list_questions[get().pagination] });
     }
 
@@ -76,9 +77,11 @@ export const useStore = create((set, get) => ({
   },
   ResetPagination() {
     set({ pagination: 0 });
+    set({correct_questions:0})
   },
   hiddenResults () {
     set({ ShowResults: 0 });
+    set({correct_questions:0})
   }
 }));
 /*********************************************************************** */

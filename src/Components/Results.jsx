@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useStore } from "../Store/Index";
-
+import "../Css/Results.css";
 const Results = () => {
   const { correct_questions, hiddenResults } = useStore();
   const navigate = useNavigate();
@@ -12,14 +12,13 @@ const Results = () => {
 
   return (
     <div className="box__results">
-      <h2>Has Terminado!</h2>
-      <h3>Total De Respuestas Correctas : {correct_questions}</h3>
-      <button
-        style={{ backgroundColor: "red" }}
-        onClick={() => handleNavigate()}
-      >
-        Empezar Nuevamente!
-      </button>
+      <div className="box__data">
+        <h2>Resultados!</h2>
+        <p>Acertastes</p>
+        <h3>{correct_questions}</h3>
+        <p>De Las Preguntas!</p>
+        <button className="box__results-btn" onClick={() => handleNavigate()}>Empezar Nuevamente!</button>
+      </div>
     </div>
   );
 };

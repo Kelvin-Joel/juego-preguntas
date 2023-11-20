@@ -1,0 +1,32 @@
+.box__results{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: #fafafa;
+    display: grid;
+    place-items: center;
+  }
+.box__results-btn{
+    outline: 1px solid rgb(219, 181, 13);
+    color: #111;
+}
+.box__results-btn:hover{
+    background-color: rgb(219, 181, 13);
+    color: #fff;
+}
+.box__data{
+    padding: 2em;
+    width: 30%;
+    box-shadow: 0 0 10px #2a2a2a2a;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    font-weight: bold;
+}
+h3{
+    font-weight: normal;
+    font-size: 3em;
+}

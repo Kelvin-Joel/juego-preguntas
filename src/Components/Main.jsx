@@ -20,7 +20,7 @@ const Main = () => {
       <p className="question__pagination">
         {pagination + 1}/{list_questions.length}
       </p>
-      <Link className="questions__btn-reset" onClick={()=>ResetPagination()} to="/">Reset</Link>
+      <Link className="questions__btn-reset" onClick={()=>ResetPagination()} to="/">Reiniciar</Link>
 
       <h2 className="question__title">{questions.question}</h2>
       <div className="question_options">
@@ -38,8 +38,8 @@ const Main = () => {
             ))
           : ""}
       </div>
-      <button onClick={next}>
-        {pagination === list_questions.length - 1 ? "Finalizar" : "Next"}
+      <button onClick={next} className="btn__next">
+        {pagination === list_questions.length - 1 ? "Finalizar" : "Siguiente"}
       </button>
       {ShowResults === list_questions.length ? <Results /> : ""}
     </div>

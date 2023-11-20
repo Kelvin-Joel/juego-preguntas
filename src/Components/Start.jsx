@@ -12,7 +12,7 @@ const Start = () => {
         <div className="content__card" key={item.id} onClick={()=>selectedTema(item.name)}>
           <img src={item.image} alt=""/>
           <p style={{color:"#fff"}}>{item.name}</p>
-          <Link className="btn__card" to="/main">Start</Link>
+          <Link className="btn__card" to="/main">Iniciar</Link>
         </div>
       ))}
     </div>
