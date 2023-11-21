@@ -58,54 +58,6 @@
     "question": "¿Cuál es la capital de Cuba?",
     "options": ["Cienfuegos", "Varadero", "Santiago de Cuba", "La Habana"],
     "correct_answer": "La Habana"
-  },
-  {
-    "id": 11,
-    "question": "¿Cuál es la capital de Estados Unidos Mexicanos?",
-    "options": ["Puebla", "Ciudad de México", "Guadalajara", "Monterrey"],
-    "correct_answer": "Ciudad de México"
-  },
-  {
-    "id": 12,
-    "question": "¿Cuál es la capital de Guatemala?",
-    "options": ["Quetzaltenango", "Antigua", "Escuintla", "Ciudad de Guatemala"],
-    "correct_answer": "Ciudad de Guatemala"
-  },
-  {
-    "id": 13,
-    "question": "¿Cuál es la capital de Honduras?",
-    "options": ["La Ceiba", "Comayagua", "San Pedro Sula", "Tegucigalpa"],
-    "correct_answer": "Tegucigalpa"
-  },
-  {
-    "id": 14,
-    "question": "¿Cuál es la capital de El Salvador?",
-    "options": ["San Miguel", "La Libertad", "Santa Ana", "San Salvador"],
-    "correct_answer": "San Salvador"
-  },
-  {
-    "id": 15,
-    "question": "¿Cuál es la capital de Nicaragua?",
-    "options": ["León", "Granada", "Masaya", "Managua"],
-    "correct_answer": "Managua"
-  },
-  {
-    "id": 16,
-    "question": "¿Cuál es la capital de Costa Rica?",
-    "options": ["Heredia", "Alajuela", "Liberia", "San José"],
-    "correct_answer": "San José"
-  },
-  {
-    "id": 17,
-    "question": "¿Cuál es la capital de Panamá?",
-    "options": ["Colón", "David", "Chitré", "Ciudad de Panamá"],
-    "correct_answer": "Ciudad de Panamá"
-  },
-  {
-    "id": 18,
-    "question": "¿Cuál es la capital de Guyana?",
-    "options": ["Lethem", "Bartica", "New Amsterdam", "Georgetown"],
-    "correct_answer": "Georgetown"
   }
 ]
 

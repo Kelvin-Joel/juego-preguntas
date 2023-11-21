@@ -3,61 +3,61 @@
         "id": 1,
         "question": "La Revolución Francesa comenzó en 1789 con la toma de la Bastilla. ¿Cuál fue el lema de la Revolución?",
         "options": ["A. Libertad, Igualdad, Fraternidad", "B. Pan y Libertad", "C. Justicia y Paz"],
-        "correctAnswer": "A"
+        "correct_answer": "A. Libertad"
       },
       {
         "id": 2,
         "question": "¿Quién fue el líder de la Revolución Rusa en 1917 que lideró la toma del Palacio de Invierno?",
         "options": ["A. Vladimir Lenin", "B. Josef Stalin", "C. León Trotsky"],
-        "correctAnswer": "A"
+        "correct_answer": "A. Vladimir Lenin"
       },
       {
         "id": 3,
         "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
         "options": ["A. 1776", "B. 1789", "C. 1804"],
-        "correctAnswer": "A"
+        "correct_answer": "A. 1776"
       },
       {
         "id": 4,
         "question": "¿Cuál fue la primera civilización antigua en la historia de la humanidad?",
         "options": ["A. Mesopotamia", "B. Egipto", "C. China"],
-        "correctAnswer": "A"
+        "correct_answer": "A. Mesopotamia"
       },
       {
         "id": 5,
         "question": "¿Cuál fue el resultado de la Guerra Fría?",
         "options": ["A. Victoria de Estados Unidos", "B. Victoria de la Unión Soviética", "C. Terminó sin un claro vencedor"],
-        "correctAnswer": "C"
+        "correct_answer": "C. Terminó sin un claro vencedor"
       },
       {
         "id": 6,
         "question": "¿En qué año se produjo la Revolución Industrial en Inglaterra?",
         "options": ["A. 1750-1850", "B. 1800-1900", "C. 1600-1700"],
-        "correctAnswer": "A"
+        "correct_answer": "A. 1750-1850"
       },
       {
         "id": 7,
         "question": "¿Cuál fue el imperio que gobernó gran parte de Europa, África del Norte y Medio Oriente durante la antigüedad y la Edad Media?",
         "options": ["A. Imperio Romano", "B. Imperio Persa", "C. Imperio Otomano"],
-        "correctAnswer": "A"
+        "correct_answer": "A. Imperio Romano"
       },
       {
         "id": 8,
         "question": "¿Cuál fue el evento que desencadenó la entrada de Estados Unidos en la Segunda Guerra Mundial?",
         "options": ["A. Ataque a Pearl Harbor", "B. Bombardeo de Hiroshima", "C. Invasión de Normandía"],
-        "correctAnswer": "A"
+        "correct_answer": "A. Ataque a Pearl Harbor"
       },
       {
         "id": 9,
         "question": "¿Quién fue el líder de Sudáfrica que luchó contra el apartheid y se convirtió en el primer presidente negro del país?",
         "options": ["A. Nelson Mandela", "B. Desmond Tutu", "C. F.W. de Klerk"],
-        "correctAnswer": "A"
+        "correct_answer": "A. Nelson Mandela"
       },
       {
         "id": 10,
         "question": "¿Cuándo se proclamó la independencia de México del dominio español?",
         "options": ["A. 1810", "B. 1821", "C. 1836"],
-        "correctAnswer": "B"
+        "correct_answer": "B. 1821"
       }
       
 ]

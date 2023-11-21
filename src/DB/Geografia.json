@@ -3,61 +3,61 @@
       "id": 1,
       "question": "¿Cuál es la capital de Japón?",
       "options": ["A. Seúl", "B. Pekín", "C. Tokio"],
-      "correctAnswer": "C"
+      "correct_answer": "C. Tokio"
     },
     {
       "id": 2,
       "question": "¿En qué continente se encuentra la Gran Barrera de Coral?",
       "options": ["A. América del Norte", "B. Europa", "C. Australia"],
-      "correctAnswer": "C"
+      "correct_answer": "C. Australia"
     },
     {
       "id": 3,
       "question": "¿Cuál es el río más largo del mundo?",
       "options": ["A. Nilo", "B. Amazonas", "C. Yangtsé"],
-      "correctAnswer": "A"
+      "correct_answer": "A. Nilo"
     },
     {
       "id": 4,
       "question": "¿Qué país es conocido como 'La Tierra del Sol Naciente'?",
       "options": ["A. China", "B. Japón", "C. India"],
-      "correctAnswer": "B"
+      "correct_answer": "B. Japón"
     },
     {
       "id": 5,
       "question": "¿Cuál es la montaña más alta del mundo?",
       "options": ["A. Monte Everest", "B. K2", "C. Mont Blanc"],
-      "correctAnswer": "A"
+      "correct_answer": "A. Monte Everest"
     },
     {
       "id": 6,
       "question": "¿En qué océano se encuentra la isla de Madagascar?",
       "options": ["A. Océano Atlántico", "B. Océano Pacífico", "C. Océano Índico"],
-      "correctAnswer": "C"
+      "correct_answer": "C. Océano Índico"
     },
     {
       "id": 7,
       "question": "¿Cuál es el país más grande del mundo en términos de superficie?",
       "options": ["A. China", "B. Rusia", "C. Estados Unidos"],
-      "correctAnswer": "B"
+      "correct_answer": "B. Rusia"
     },
     {
       "id": 8,
       "question": "¿En qué continente se encuentra el desierto del Sahara?",
       "options": ["A. África", "B. Asia", "C. América del Norte"],
-      "correctAnswer": "A"
+      "correct_answer": "A. África"
     },
     {
       "id": 9,
       "question": "¿Cuál es la capital de Canadá?",
       "options": ["A. Toronto", "B. Ottawa", "C. Vancouver"],
-      "correctAnswer": "B"
+      "correct_answer": "B. Ottawa"
     },
     {
       "id": 10,
       "question": "¿Cuál es el punto más bajo de la Tierra?",
       "options": ["A. Valle de la Muerte", "B. Mariana Trench", "C. Lago Baikal"],
-      "correctAnswer": "B"
+      "correct_answer": "B. Mariana Trench"
     }
   ]
   

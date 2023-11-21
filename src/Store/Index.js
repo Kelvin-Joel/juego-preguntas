@@ -13,20 +13,20 @@ export const useStore = create((set, get) => ({
   correct_questions: 0,
   select_button: null,
   ShowResults: 0,
-  temas :{
-    Capitales:Capitales,
-    Ciencia:Ciencia,
-    Tecnologia:Tecnologia,
-    Astronomia:Astronomia,
-    Historia:Historia,
-    Geografia:Geografia,
+  temas: {
+    Capitales: Capitales,
+    Ciencia: Ciencia,
+    Tecnologia: Tecnologia,
+    Astronomia: Astronomia,
+    Historia: Historia,
+    Geografia: Geografia,
   },
   /*********************************************************************** */
   selectedTema(tema) {
-    if(get().temas.hasOwnProperty(tema)){
+    if (get().temas.hasOwnProperty(tema)) {
       set({ list_questions: get().temas[tema] });
       set({ questions: get().list_questions[get().pagination] });
-      return
+      return;
     }
   },
   /*********************************************************************** */
@@ -37,12 +37,11 @@ export const useStore = create((set, get) => ({
   next() {
     set({ ShowResults: get().ShowResults + 1 });
     if (get().pagination !== get().list_questions.length - 1) {
-      set({pagination: get().pagination + 1});
+      set({ pagination: get().pagination + 1 });
       set({ questions: get().list_questions[get().pagination] });
       get().getAnswer();
     } else {
       set({ pagination: 0 });
-      
       set({ questions: get().list_questions[get().pagination] });
     }
     if (get().ShowResults > get().list_questions.length) {
@@ -53,6 +52,7 @@ export const useStore = create((set, get) => ({
   /*********************************************************************** */
   getAnswer(answer) {
     get().handleButtonClick(answer);
+    console.log(get().questions.correct_answer)
     set((state) => {
       if (get().questions.correct_answer === answer) {
         return { correct_questions: state.correct_questions + 1 };
@@ -62,11 +62,11 @@ export const useStore = create((set, get) => ({
   },
   ResetPagination() {
     set({ pagination: 0 });
-    set({correct_questions:0})
+    set({ correct_questions: 0 });
   },
-  hiddenResults () {
+  hiddenResults() {
     set({ ShowResults: 0 });
-    set({correct_questions:0})
-  }
+    set({ correct_questions: 0 });
+  },
 }));
 /*********************************************************************** */

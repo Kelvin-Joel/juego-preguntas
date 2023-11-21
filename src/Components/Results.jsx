@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useStore } from "../Store/Index";
 import "../Css/Results.css";
+
 const Results = () => {
   const { correct_questions, hiddenResults,list_questions } = useStore();
   const navigate = useNavigate();
@@ -9,7 +10,6 @@ const Results = () => {
     hiddenResults();
     navigate("/");
   };
-  console.log("")
 
   return (
     <div className="box__results">
